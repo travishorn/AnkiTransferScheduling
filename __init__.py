@@ -21,7 +21,6 @@ Shortcuts are customizable in config.json. Auto-deletion after the transfer can 
 
 import anki.notes
 from anki.hooks import addHook
-from anki.importing.anki2 import Anki2Importer
 from anki.lang import _
 from anki.utils import int_time, guid64
 from aqt import QAction, QKeySequence, mw
